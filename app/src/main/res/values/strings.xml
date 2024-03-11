@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Bibliophile</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="shelf">Shelf</string>
 </resources>
