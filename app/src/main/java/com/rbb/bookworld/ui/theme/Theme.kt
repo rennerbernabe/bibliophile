@@ -1,4 +1,4 @@
-package com.rbb.bibliophile.ui.theme
+package com.rbb.bookworld.ui.theme
 
 import android.app.Activity
 import android.os.Build

@@ -1,4 +1,4 @@
-package com.rbb.bibliophile
+package com.rbb.bookworld
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -30,7 +30,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.rbb.bibliophile.ui.theme.BibliophileTheme
+import com.rbb.bibliophile.R
+import com.rbb.bookworld.ui.theme.BibliophileTheme
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

@@ -1,4 +1,4 @@
-package com.rbb.bibliophile
+package com.rbb.bookworld
 
 import androidx.compose.ui.graphics.vector.ImageVector
 
