@@ -30,8 +30,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.rbb.bibliophile.R
-import com.rbb.bookworld.ui.theme.BibliophileTheme
+import com.rbb.bookworld.ui.theme.BookWorldTheme
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
@@ -56,7 +55,7 @@ class MainActivity : ComponentActivity() {
             val tabBarItems = listOf(homeTab, favoriteTab, shelfTab)
             val navController = rememberNavController()
 
-            BibliophileTheme {
+            BookWorldTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background

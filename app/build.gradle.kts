@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.rbb.bibliophile"
+    namespace = "com.rbb.bookworld"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.rbb.bibliophile"
+        applicationId = "com.rbb.bookworld"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
