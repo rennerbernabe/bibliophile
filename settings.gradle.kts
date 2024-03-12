@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Book World"
 include(":app")
+include(":feature:auth")
